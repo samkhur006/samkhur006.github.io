@@ -7,5 +7,8 @@ import tailwindConfig from './tailwind.config.cjs'; // Adjust the path according
 // https://astro.build/config
 export default defineConfig({
   site: 'https://samkhur006.github.io',
-  integrations: [mdx(), sitemap(), tailwind({ config: tailwindConfig })]
+  integrations: [mdx(), tailwind({ config: tailwindConfig })],
+  server: {
+    host: true
+  }
 });
