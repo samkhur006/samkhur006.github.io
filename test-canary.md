@@ -8,3 +8,12 @@ When this PR is merged and deployed via Vercel, it should trigger:
 3. Canary processing of the deployment event
 
 Test timestamp: 2026-01-23 17:30 UTC+05:30
+
+## Update: Vercel Connected to GitHub
+
+Vercel is now connected to the GitHub repository. This update should trigger:
+- Automatic Vercel preview deployment
+- GitHub deployment_status webhook with vercel[bot] as creator
+- Preview URL ending in .vercel.app
+
+Updated: 2026-01-23 18:10 UTC+5:30
